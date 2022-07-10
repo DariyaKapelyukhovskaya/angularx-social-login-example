@@ -5,7 +5,6 @@ import { SocialUser } from 'lib';
 import {
   FacebookLoginProvider,
   AmazonLoginProvider,
-  VKLoginProvider,
   MicrosoftLoginProvider,
 } from 'lib';
 
@@ -32,10 +31,6 @@ export class DemoComponent implements OnInit {
 
   signInWithAmazon(): void {
     this._authService.signIn(AmazonLoginProvider.PROVIDER_ID);
-  }
-
-  signInWithVK(): void {
-    this._authService.signIn(VKLoginProvider.PROVIDER_ID);
   }
 
   signInWithMicrosoft(): void {

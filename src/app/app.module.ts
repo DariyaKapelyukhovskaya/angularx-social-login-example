@@ -11,7 +11,6 @@ import {
   SocialLoginModule,
   FacebookLoginProvider,
   AmazonLoginProvider,
-  VKLoginProvider,
   MicrosoftLoginProvider,
   SocialAuthServiceConfig,
 } from 'lib';
@@ -28,7 +27,7 @@ import {
           {
             id: GoogleLoginProvider.PROVIDER_ID,
             provider: new GoogleLoginProvider(
-              '624796833023-clhjgupm0pu6vgga7k5i5bsfp6qp6egh.apps.googleusercontent.com'
+              '535483137898-e03lr7s18i8tam5re3lfneadcleap9fr.apps.googleusercontent.com'
             ),
           },
           {
@@ -40,10 +39,6 @@ import {
             provider: new AmazonLoginProvider(
               'amzn1.application-oa2-client.f074ae67c0a146b6902cc0c4a3297935'
             ),
-          },
-          {
-            id: VKLoginProvider.PROVIDER_ID,
-            provider: new VKLoginProvider('7624815'),
           },
           {
             id: MicrosoftLoginProvider.PROVIDER_ID,
